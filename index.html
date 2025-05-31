@@ -2,8 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Effective solutions for business" />
-    <title>Effective solutions for your business</title>
+    <title>Web Studio</title>
+    <!-- Підключення шрифтів -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Підключення стилів -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -11,25 +20,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
+    <!-- PAGE HEADER -->
     <header class="page-header">
-      <div class="container container-header">
-        <nav class="main-nav">
+      <div class="container page-header-container">
+        <nav class="page-nav">
           <a class="logo-one logo-header" href="./index.html"
             >Web<span class="logo-two">Studio</span></a
           >
           <ul class="page-menu">
             <li class="page-menu-item">
-              <a href="./index.html" class="link first-link">Studio</a>
+              <a href="" class="link first-link">Studio</a>
             </li>
             <li class="page-menu-item">
               <a href="" class="link">Portfolio</a>
@@ -37,7 +41,6 @@
             <li class="page-menu-item"><a href="" class="link">Contacts</a></li>
           </ul>
         </nav>
-
         <address class="main-adress">
           <ul class="page-address">
             <li class="adress-item">
@@ -50,17 +53,26 @@
             </li>
           </ul>
         </address>
+        <button class="mobile-open-menu-btn" type="button">
+          <svg class="mobile-open-menu-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
+    <!-- PAGE HEADER -->
 
     <main>
+      <!-- HERO SECTION -->
       <section class="hero-section">
         <div class="container hero-section-container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button type="button" class="button">Order Service</button>
         </div>
       </section>
+      <!-- HERO SECTION -->
 
+      <!-- FEATURES SECTION -->
       <section class="features-section">
         <div class="container">
           <h2 class="visually-hidden">List of features</h2>
@@ -116,7 +128,9 @@
           </ul>
         </div>
       </section>
+      <!-- FEATURES SECTION -->
 
+      <!-- TEAM SECTION -->
       <section class="team-section">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
@@ -124,7 +138,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-img"
-                src="./images/1-2/img-3.jpg"
+                src="./images/team-section/MG-1x.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -167,7 +181,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-img"
-                src="./images/1-2/img-2.jpg"
+                src="./images/team-section/TF-1x.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -210,7 +224,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-img"
-                src="./images/1-2/img-1.jpg"
+                src="./images/team-section/CG-1x.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -253,7 +267,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-img"
-                src="./images/1-2/img.jpg"
+                src="./images/team-section/DW-1x.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -296,7 +310,9 @@
           </ul>
         </div>
       </section>
+      <!-- TEAM SECTION -->
 
+      <!-- PORTFOLIO SECTION -->
       <section class="portfolio-section">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
@@ -305,7 +321,7 @@
               <div class="portfolio-overlay">
                 <img
                   class="portfolio-list-img"
-                  src="./images/3/img-16.jpg"
+                  src="./images/portfolio-section/desk-1-1x.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -325,7 +341,7 @@
               <div class="portfolio-overlay">
                 <img
                   class="portfolio-list-img"
-                  src="./images/3/img-15.jpg"
+                  src="./images/portfolio-section/desk-2-1x.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -345,7 +361,7 @@
               <div class="portfolio-overlay">
                 <img
                   class="portfolio-list-img"
-                  src="./images/3/img-14.jpg"
+                  src="./images/portfolio-section/desk-3-1x.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -365,7 +381,7 @@
               <div class="portfolio-overlay">
                 <img
                   class="portfolio-list-img"
-                  src="./images/3/img-13.jpg"
+                  src="./images/portfolio-section/desk-4-1x.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -385,7 +401,7 @@
               <div class="portfolio-overlay">
                 <img
                   class="portfolio-list-img"
-                  src="./images/3/img-12.jpg"
+                  src="./images/portfolio-section/desk-5-1x.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -405,7 +421,7 @@
               <div class="portfolio-overlay">
                 <img
                   class="portfolio-list-img"
-                  src="./images/3/img-11.jpg"
+                  src="./images/portfolio-section/desk-6-1x.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -424,8 +440,10 @@
           </ul>
         </div>
       </section>
+      <!-- PORTFOLIO SECTION -->
     </main>
 
+    <!-- PAGE FOOTER -->
     <footer class="footer-section">
       <div class="container footer-container">
         <div class="footer-logo-text">
@@ -490,6 +508,9 @@
         </div>
       </div>
     </footer>
+    <!-- PAGE FOOTER -->
+
+    <!-- BACKDROP WITH MODAL -->
     <div class="backdrop is-open">
       <div class="modal">
         <button class="close-modal-btn" type="button">
@@ -591,5 +612,77 @@
         </form>
       </div>
     </div>
+    <!-- BACKDROP WITH MODAL -->
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu">
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close-btn" type="button">
+          <svg class="mobile-menu-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-menu-nav-list">
+            <li class="mobile-menu-nav-list-item">
+              <a href="" class="mobile-menu-nav-link">Studio</a>
+            </li>
+            <li class="mobile-menu-nav-list-item">
+              <a href="" class="mobile-menu-nav-link">Portfolio</a>
+            </li>
+            <li class="mobile-menu-nav-list-item">
+              <a href="" class="mobile-menu-nav-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="mobile-address">
+          <ul class="mobile-page-address">
+            <li class="mobile-adress-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="mobile-page-address-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="mobile-adress-item">
+              <a href="tel:+110001111111" class="mobile-page-address-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="mobile-menu-social-list">
+          <li class="mobile-menu-social-list-item">
+            <a href="" class="mobile-menu-social-list-link">
+              <svg class="mobile-menu-social-list-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-social-list-item">
+            <a href="" class="mobile-menu-social-list-link">
+              <svg class="mobile-menu-social-list-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-social-list-item">
+            <a href="" class="mobile-menu-social-list-link">
+              <svg class="mobile-menu-social-list-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-social-list-item">
+            <a href="" class="mobile-menu-social-list-link">
+              <svg class="mobile-menu-social-list-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- MOBILE MENU -->
   </body>
 </html>
