@@ -49,6 +49,7 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 button {
@@ -110,7 +111,9 @@ address {
 @media screen {
   .page-header {
     border-bottom: 1px solid var(--cornflower);
-    box-shadow: 0px 2px 1px #2e2f4214, 0px 1px 1px #2e2f4229,
+    box-shadow:
+      0px 2px 1px #2e2f4214,
+      0px 1px 1px #2e2f4229,
       0px 1px 6px #2e2f4214;
   }
 
@@ -201,7 +204,8 @@ address {
     border: 1px solid #0000001a;
     fill: var(--navy-blue);
     background-color: var(--cornflower);
-    transition: background-color var(--primary-transition),
+    transition:
+      background-color var(--primary-transition),
       border var(--primary-transition);
   }
 
@@ -413,7 +417,8 @@ address {
     padding-bottom: 72px;
     padding-left: 52px;
     padding-right: 52px;
-    background-image: linear-gradient(#2e2f42b3, #2e2f42b3),
+    background-image:
+      linear-gradient(#2e2f42b3, #2e2f42b3),
       url(../images/hero-section/mob-1x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -422,7 +427,8 @@ address {
 
   @media screen and (min-resolution: 192dpi) {
     .hero-section {
-      background-image: linear-gradient(#2e2f42b3, #2e2f42b3),
+      background-image:
+        linear-gradient(#2e2f42b3, #2e2f42b3),
         url(../images/hero-section/mob-2x.jpg);
     }
   }
@@ -476,13 +482,15 @@ address {
     padding-bottom: 112px;
     padding-left: 136px;
     padding-right: 136px;
-    background-image: linear-gradient(#2e2f42b3, #2e2f42b3),
+    background-image:
+      linear-gradient(#2e2f42b3, #2e2f42b3),
       url(../images/hero-section/tab-1x.jpg);
   }
 
   @media screen and (min-resolution: 192dpi) {
     .hero-section {
-      background-image: linear-gradient(#2e2f42b3, #2e2f42b3),
+      background-image:
+        linear-gradient(#2e2f42b3, #2e2f42b3),
         url(../images/hero-section/tab-2x.jpg);
     }
   }
@@ -503,13 +511,15 @@ address {
     padding-bottom: 188px;
     padding-left: 0;
     padding-right: 0;
-    background-image: linear-gradient(#2e2f42b3, #2e2f42b3),
+    background-image:
+      linear-gradient(#2e2f42b3, #2e2f42b3),
       url(../images/hero-section/desk-1x.jpg);
   }
 
   @media screen and (min-resolution: 192dpi) {
     .hero-section {
-      background-image: linear-gradient(#2e2f42b3, #2e2f42b3),
+      background-image:
+        linear-gradient(#2e2f42b3, #2e2f42b3),
         url(../images/hero-section/desk-2x.jpg);
     }
   }
@@ -670,7 +680,9 @@ address {
 
   .team-list-item {
     border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 #2e2f4214, 0 1px 1px 0 #2e2f4229,
+    box-shadow:
+      0 2px 1px 0 #2e2f4214,
+      0 1px 1px 0 #2e2f4229,
       0 1px 6px 0 #2e2f4214;
     max-width: 264px;
     max-height: 428px;
@@ -803,7 +815,9 @@ address {
 
   .portfolio-list-item:hover,
   .portfolio-list-item:focus {
-    box-shadow: 0px 1px 6px #2e2f4214, 0px 1px 1px #2e2f4229,
+    box-shadow:
+      0px 1px 6px #2e2f4214,
+      0px 1px 1px #2e2f4229,
       0px 2px 1px #2e2f4214;
   }
 
@@ -1144,7 +1158,8 @@ address {
 
     opacity: 0;
     pointer-events: none;
-    transition: opacity var(--primary-transition),
+    transition:
+      opacity var(--primary-transition),
       visibility var(--primary-transition);
   }
 
@@ -1160,7 +1175,9 @@ address {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 1px 1px 0 #00000024, 0 1px 3px 0 #0000001f,
+    box-shadow:
+      0 1px 1px 0 #00000024,
+      0 1px 3px 0 #0000001f,
       0 2px 1px 0 #00000033;
     background-color: var(--dairy);
     border-radius: 4px;
@@ -1181,7 +1198,8 @@ address {
     border: 1px solid #0000001a;
     fill: var(--navy-blue);
     background-color: var(--cornflower);
-    transition: background-color var(--primary-transition),
+    transition:
+      background-color var(--primary-transition),
       border var(--primary-transition);
   }
 
@@ -1307,8 +1325,10 @@ address {
     border-radius: 2px;
     cursor: pointer;
     fill: transparent;
-    transition: background-color var(--primary-transition),
-      border var(--primary-transition), fill var(--primary-transition);
+    transition:
+      background-color var(--primary-transition),
+      border var(--primary-transition),
+      fill var(--primary-transition);
   }
 
   .contacts-form-checkbox-label-text {
