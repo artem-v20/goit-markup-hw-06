@@ -26,6 +26,13 @@ body {
   font-family: var(--font-family);
   color: var(--slate);
   background-color: var(--white);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
 }
 
 h1,
