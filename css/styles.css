@@ -660,6 +660,7 @@ address {
     display: flex;
     flex-direction: column;
     gap: 72px;
+    justify-content: center;
     align-items: center;
   }
 
@@ -794,6 +795,8 @@ address {
     display: flex;
     flex-direction: column;
     gap: 48px;
+    justify-content: center;
+    align-items: center;
   }
 
   .portfolio-list-item {
