@@ -412,7 +412,7 @@ address {
 /* HERO-SECTION STYLES */
 
 @media screen {
-  .hero-section {
+  .hero-section-container {
     max-width: 320px;
     background-color: var(--navy-blue);
     margin-left: auto;
@@ -430,15 +430,11 @@ address {
   }
 
   @media screen and (min-resolution: 192dpi) {
-    .hero-section {
+    .hero-section-container {
       background-image:
         linear-gradient(var(--grey), var(--grey)),
         url(../images/hero-section/mob-2x.jpg);
     }
-  }
-
-  .hero-section-container {
-    padding: 0;
   }
 
   .main-title {
@@ -480,7 +476,7 @@ address {
 }
 
 @media screen and (min-width: 768px) {
-  .hero-section {
+  .hero-section-container {
     max-width: 768px;
     padding-top: 112px;
     padding-bottom: 112px;
@@ -492,7 +488,7 @@ address {
   }
 
   @media screen and (min-resolution: 192dpi) {
-    .hero-section {
+    .hero-section-container {
       background-image:
         linear-gradient(var(--grey), var(--grey)),
         url(../images/hero-section/tab-2x.jpg);
@@ -509,28 +505,20 @@ address {
 }
 
 @media screen and (min-width: 1440px) {
-  .hero-section {
+  .hero-section-container {
     max-width: 1440px;
-    padding-top: 188px;
-    padding-bottom: 188px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 188px 472px;
     background-image:
       linear-gradient(var(--grey), var(--grey)),
       url(../images/hero-section/desk-1x.jpg);
   }
 
   @media screen and (min-resolution: 192dpi) {
-    .hero-section {
+    .hero-section-container {
       background-image:
         linear-gradient(var(--grey), var(--grey)),
         url(../images/hero-section/desk-2x.jpg);
     }
-  }
-
-  .hero-section-container {
-    padding-left: 331px;
-    padding-right: 331px;
   }
 
   .main-title {
