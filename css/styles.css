@@ -121,14 +121,6 @@ address {
       0px 1px 6px #2e2f4214;
   }
 
-  .nav-menu {
-    display: none;
-  }
-
-  .address-list {
-    display: none;
-  }
-
   .header-container {
     display: flex;
     align-items: center;
@@ -136,8 +128,8 @@ address {
   }
 
   .logo-part-one {
-    color: var(--iris);
     font-family: var(--second-family);
+    color: var(--iris);
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -147,6 +139,14 @@ address {
 
   .logo-part-two {
     color: var(--navy-blue);
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .page-address {
+    display: none;
   }
 }
 
