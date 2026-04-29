@@ -189,6 +189,8 @@ address {
   .mobile-menu-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     padding-left: 16px;
     padding-right: 24px;
