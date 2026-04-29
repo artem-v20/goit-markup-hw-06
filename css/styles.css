@@ -145,15 +145,14 @@ address {
     display: none;
   }
 
-  .page-address {
+  .address-list {
     display: none;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 16px 0;
   }
 
   .mobile-open-menu-btn {
@@ -309,19 +308,11 @@ address {
     display: none;
   }
 
-  .header {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .header-container {
-    padding: 0;
-  }
-
   .page-nav {
     display: flex;
     gap: 120px;
     align-items: center;
+    padding: 24px 0;
   }
 
   .nav-menu {
@@ -329,38 +320,34 @@ address {
     column-gap: 40px;
   }
 
-  .nav-menu .nav-menu-link {
+  .nav-menu-link {
     display: block;
     color: var(--navy-blue);
-    font-family: var(--font-family);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 24px;
-    padding-bottom: 24px;
     position: relative;
     transition: color var(--primary-transition);
   }
 
-  .nav-menu .nav-menu-first-link {
+  .nav-menu-first-link {
     color: var(--ocean);
   }
 
-  .nav-menu .nav-menu-link:hover,
-  .nav-menu .nav-menu-link:focus {
+  .nav-menu-link:hover,
+  .nav-menu-link:focus {
     color: var(--ocean);
   }
 
-  .nav-menu .nav-menu-first-link::after {
+  .nav-menu-first-link::after {
     content: "";
-    width: 48px;
+    width: 100%;
     height: 4px;
     background-color: var(--ocean);
     position: absolute;
-    bottom: -1px;
+    bottom: -25px;
     left: 0;
-    width: 100%;
     border-radius: 2px;
   }
 
@@ -370,10 +357,8 @@ address {
     gap: 12px;
   }
 
-  .address-list .address-link {
-    display: block;
+  .address-link {
     color: var(--slate);
-    font-family: var(--font-family);
     font-size: 12px;
     text-transform: lowercase;
     line-height: 1.17;
@@ -381,8 +366,8 @@ address {
     transition: color var(--primary-transition);
   }
 
-  .address-list .address-link:hover,
-  .address-list .address-link:focus {
+  .address-link:hover,
+  .address-link:focus {
     color: var(--ocean);
   }
 }
@@ -397,7 +382,7 @@ address {
     gap: 40px;
   }
 
-  .address-list .address-link {
+  .address-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
