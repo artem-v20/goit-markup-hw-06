@@ -514,7 +514,7 @@ address {
     display: none;
   }
 
-  .features-list .features-title-one {
+  .features-list .features-title {
     color: var(--navy-blue);
     font-size: 36px;
     font-weight: 700;
@@ -537,7 +537,7 @@ address {
     padding-right: 16px;
   }
 
-  .text-container {
+  .features-container {
     padding: 0;
   }
 
@@ -580,7 +580,7 @@ address {
     margin-bottom: 8px;
   }
 
-  .features-list .features-title-one {
+  .features-list .features-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
