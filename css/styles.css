@@ -395,14 +395,14 @@ address {
 
 @media screen {
   .hero-section-container {
-    max-width: 320px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    justify-content: center;
+    align-items: center;
     background-color: var(--navy-blue);
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 72px;
-    padding-bottom: 72px;
-    padding-left: 52px;
-    padding-right: 52px;
+    padding: 72px 52px;
     background-image:
       linear-gradient(var(--grey), var(--grey)),
       url(../images/hero-section/mob-1x.jpg);
@@ -421,32 +421,23 @@ address {
 
   .main-title {
     max-width: 216px;
-    height: 160px;
     color: var(--white);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 72px;
   }
 
   .button {
-    display: block;
-    cursor: pointer;
     color: var(--white);
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: var(--iris);
-    min-width: 169px;
     padding: 16px 32px;
     border-radius: 4px;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
     box-shadow: 0 4px 4px 0 #00000026;
     transition: background-color var(--primary-transition);
   }
@@ -459,11 +450,8 @@ address {
 
 @media screen and (min-width: 768px) {
   .hero-section-container {
-    max-width: 768px;
-    padding-top: 112px;
-    padding-bottom: 112px;
-    padding-left: 136px;
-    padding-right: 136px;
+    padding: 112px 136px;
+    gap: 36px;
     background-image:
       linear-gradient(var(--grey), var(--grey)),
       url(../images/hero-section/tab-1x.jpg);
@@ -479,17 +467,15 @@ address {
 
   .main-title {
     max-width: 496px;
-    height: 120px;
     font-size: 56px;
     line-height: 1.07;
-    margin-bottom: 36px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .hero-section-container {
-    max-width: 1440px;
     padding: 188px 472px;
+    gap: 48px;
     background-image:
       linear-gradient(var(--grey), var(--grey)),
       url(../images/hero-section/desk-1x.jpg);
@@ -501,13 +487,6 @@ address {
         linear-gradient(var(--grey), var(--grey)),
         url(../images/hero-section/desk-2x.jpg);
     }
-  }
-
-  .main-title {
-    max-width: 496px;
-    height: 120px;
-    font-size: 56px;
-    margin-bottom: 48px;
   }
 }
 
