@@ -846,13 +846,13 @@ address {
 /* FOOTER STYLES */
 
 @media screen {
-  .footer-section {
+  .footer {
     background-color: var(--navy-blue);
     padding-top: 96px;
     padding-bottom: 96px;
   }
 
-  .footer-logo-text {
+  .footer-logo-text-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -881,7 +881,7 @@ address {
     padding-bottom: 72px;
   }
 
-  .footer-social-text {
+  .footer-social-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -922,7 +922,7 @@ address {
     fill: var(--cloud);
   }
 
-  .footer-text-subscribe {
+  .footer-subscribe-form-title {
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -939,7 +939,7 @@ address {
     align-items: center;
   }
 
-  .footer-form-input {
+  .footer-subscribe-form-input {
     width: 288px;
     height: 40px;
     border: 1px solid var(--white);
@@ -953,7 +953,7 @@ address {
     color: var(--white);
   }
 
-  .footer-form-input::placeholder {
+  .footer-subscribe-form-input::placeholder {
     color: var(--white);
   }
 
@@ -987,7 +987,7 @@ address {
 }
 
 @media screen and (min-width: 768px) {
-  .footer-section {
+  .footer {
     padding-top: 96px;
     padding-bottom: 96px;
     padding-left: 16px;
@@ -1004,7 +1004,7 @@ address {
     padding: 0 0 0 92px;
   }
 
-  .footer-logo-text {
+  .footer-logo-text-wrapper {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1018,7 +1018,7 @@ address {
     padding: 0;
   }
 
-  .footer-social-text {
+  .footer-social-title {
     text-align: start;
   }
 
@@ -1026,7 +1026,7 @@ address {
     justify-content: flex-start;
   }
 
-  .footer-text-subscribe {
+  .footer-subscribe-form-title {
     text-align: start;
   }
 
@@ -1037,13 +1037,13 @@ address {
     justify-content: start;
   }
 
-  .footer-form-input {
+  .footer-subscribe-form-input {
     width: 264px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .footer-section {
+  .footer {
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -1057,7 +1057,7 @@ address {
     align-items: baseline;
   }
 
-  .footer-logo-text {
+  .footer-logo-text-wrapper {
     margin-right: 120px;
   }
 
