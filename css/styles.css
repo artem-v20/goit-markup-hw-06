@@ -763,7 +763,7 @@ address {
       0px 2px 1px #2e2f4214;
   }
 
-  .portfolio-list .portfolio-title-one {
+  .portfolio-list-title {
     color: var(--navy-blue);
     font-size: 20px;
     font-weight: 500;
@@ -772,18 +772,13 @@ address {
     margin-bottom: 8px;
   }
 
-  .portfolio-list-item:hover .portfolio-text,
-  .portfolio-list-item:focus .portfolio-text {
-    transform: translateY(0%);
-  }
-
-  .portfolio-list .portfolio-text {
+  .portfolio-list-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
 
-  .portfolio-title-text-container {
+  .portfolio-list-title-text-wrapper {
     border-bottom: 1px solid var(--cornflower);
     border-left: 1px solid var(--cornflower);
     border-right: 1px solid var(--cornflower);
