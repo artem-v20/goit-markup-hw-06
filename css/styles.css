@@ -847,6 +847,7 @@ address {
 
 @media screen {
   .footer {
+    min-width: 320px;
     background-color: var(--navy-blue);
     padding-top: 96px;
     padding-bottom: 96px;
