@@ -1080,7 +1080,7 @@ address {
       0 2px 1px 0 #00000033;
     background-color: var(--dairy);
     border-radius: 4px;
-    padding: 72px 16px 24px 16px;
+    padding: 72px 16px 24px;
     transition: transform var(--primary-transition);
   }
 
