@@ -1109,10 +1109,6 @@ address {
     fill: var(--white);
   }
 
-  .close-modal-btn-icon {
-    transition: fill var(--primary-transition);
-  }
-
   .contacts-slogan {
     width: 256px;
     font-weight: 500;
@@ -1124,8 +1120,16 @@ address {
     margin-bottom: 16px;
   }
 
+  .contacts-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
   .contacts-form-field-wrapper {
-    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
   }
 
   .contacts-form-field-label {
@@ -1134,7 +1138,6 @@ address {
     letter-spacing: 0.04em;
     line-height: 1.17;
     color: var(--light-slate);
-    margin-bottom: 4px;
   }
 
   .contacts-form-field-content-wrapper {
@@ -1144,6 +1147,7 @@ address {
   .contacts-form-input {
     width: 100%;
     height: 40px;
+    padding-left: 38px;
     border: 1px solid var(--navy-blue-modal);
     border-radius: 4px;
     background-color: transparent;
@@ -1166,6 +1170,10 @@ address {
 
   .contacts-form-input:focus + .contacts-form-field-icon {
     fill: var(--iris);
+  }
+
+  .textarea-field {
+    margin-bottom: 16px;
   }
 
   .contacts-form-message {
@@ -1193,10 +1201,6 @@ address {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--navy-blue-modal);
-  }
-
-  .textarea-field {
-    margin-bottom: 16px;
   }
 
   .contacts-form-checkbox-wrapper {
@@ -1230,7 +1234,7 @@ address {
   }
 
   .contacts-form-checkbox-label-text {
-    width: 231px;
+    width: 232px;
   }
 
   .contacts-form-policy-checkbox:checked
@@ -1256,7 +1260,6 @@ address {
   .contacts-form-submit-btn {
     display: block;
     min-width: 169px;
-    height: 56px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-weight: 500;
@@ -1283,8 +1286,8 @@ address {
   }
 
   .modal {
-    width: 408px;
-    min-height: 584px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .contacts-slogan {
